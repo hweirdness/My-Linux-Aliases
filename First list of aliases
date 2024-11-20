@@ -1,0 +1,16 @@
+alias lss='ls -a -h -l'
+alias grepp='grep -i -r -s'
+alias install='sudo apt install'
+alias autoremove='sudo apt autoremove'
+alias update='sudo apt update'
+alias fullupgrade='sudo apt full-upgrade'
+alias bf1='cd ..'
+alias bf2='cd ../..'
+alias bf3='cd ../../..'
+alias bf3='cd ../../..'
+alias bf4='cd ../../../..'
+alias bf5='cd ../../../../..'
+alias c='clear'
+alias uu='update && fullupgrade'
+
+NOTE: The 'uu' alias won't work unless you also make the 'update' and 'fullupgrade' aliases.
